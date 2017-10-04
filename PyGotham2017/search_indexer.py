@@ -26,7 +26,7 @@ def process_doc(a_profile_id):
     flattened_doc = index_single_doc(field_names, profile)
     add_doc(flattened_doc, a_profile_id)
 
-def add_doc(self, data, id=doc_id):
+def add_doc(self, data, doc_id):
     """ Adds a new document to Elasticsearch.
     """
     es_instance = Elasticsearch('https://my_elasticsearchserver')

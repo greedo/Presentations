@@ -1,8 +1,8 @@
 grpcio==1.14.1
 grpcio-tools==1.14.1
 googleapis-common-protos==1.5.3
-requests==2.19.1
+requests>=2.20.0
 twisted[h2]==18.7.0
 hyper==0.7.0
 PyJWT==1.6.4
-Django==1.11
+Django>=1.11.15

@@ -4,5 +4,5 @@ googleapis-common-protos==1.5.3
 requests>=2.20.0
 twisted[h2]==19.7.0
 hyper==0.7.0
-PyJWT==1.6.4
+PyJWT==2.4.0
 Django>=1.11.15
